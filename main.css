@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: #111;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: #000;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hire-btn {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 80px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: orange;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.friends {
+    text-align: center;
+    padding: 50px;
+}
+
+.friends-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 180px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about {
+    padding: 60px 80px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 25px;
+}
+
+.skills div {
+    margin: 10px 0;
+}
+
+.skills span {
+    color: orange;
+}
+
+.realla {
+    text-align: center;
+}
+
+.loyihalarim {
+    display: flex;
+    gap: 350px;
+
+
+
+}
+
+.moct-recent {
+    border-radius: 50%;
+}
+
+.simmm {
+    border: 3px solid orange;
+    border-radius: 50%;
+}
+
+.ranglar {
+    width: 250px;
+}
