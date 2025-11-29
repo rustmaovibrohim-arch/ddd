@@ -56,8 +56,8 @@ body {
 }
 
 .profile-img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 550px;
     border-radius: 30px;
 }
 
@@ -127,8 +127,53 @@ body {
 .simmm {
     border: 3px solid orange;
     border-radius: 50%;
+    width: 100%;
 }
 
 .ranglar {
     width: 250px;
+}
+
+.hire-btn:hover {
+    background-color: white;
+    border: 2px solid orange;
+    color: black;
+}
+
+.profile-img:hover {
+    border: 15px solid white;
+    color: white;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.service-box {
+    padding: 25px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.service-box:hover {
+    transform: translateY(-7px);
+    background: #222;
+
+    border: 10px solid white;
+    color: white;
+}
+
+.service-box img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover {
+    border: 15px solid white;
+    color: white;
 }
